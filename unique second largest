@@ -1,0 +1,19 @@
+#second largest
+a=[2,8,8,6,3,7]
+b=[]
+
+
+for i in a:
+    if i not in b:
+        b.append(i)
+
+first=0
+second=0
+for i in b:
+    if i>first:
+        second=first
+        first=i
+    elif i>second and i!=first:
+        second=i
+print(b)
+print(second)
