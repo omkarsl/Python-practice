@@ -1,0 +1,6 @@
+#pairs of adjacent elements whose sum equals
+a=[2,8,6,3,2,7]
+for i in range(len(a)-1):
+    if a[i]+a[i+1]==10:
+        print(a[i],a[i+1])
+    
