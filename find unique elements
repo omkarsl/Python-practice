@@ -1,0 +1,7 @@
+#removing duplicates
+a=[2,8,8,6,3,7]
+uni=[]
+for i in range(len(a)):
+    if a[i] not in uni:
+        uni.append(a[i])
+print(uni)
