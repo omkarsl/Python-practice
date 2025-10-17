@@ -1,0 +1,7 @@
+a="a b s f "
+count=0
+for char in a:
+    if char!=" ":
+        count+=1
+
+count
