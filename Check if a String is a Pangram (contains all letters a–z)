@@ -1,0 +1,9 @@
+#pangram
+a="ai is powerful technology"
+l=""
+b=a.split()
+print(b)
+for ch in b:
+    if len(ch)>len(l):
+        l=ch
+print(l)
