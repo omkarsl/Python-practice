@@ -1,0 +1,5 @@
+a = [3,2,4]
+t= 6
+for i in range(len(a)-1):
+    if a[i]+a[i+1]==t:
+        print(i,i+1)
